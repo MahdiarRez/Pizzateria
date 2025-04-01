@@ -1,5 +1,5 @@
 /* eslint-disable react/prop-types */
-import { motion } from "framer-motion";
+import { motion } from "motion/react";
 import { createContext, useContext, useEffect, useState } from "react";
 import PictureLoader from "../../../common/PictureLoader";
 import { useDispatch, useSelector } from "react-redux";

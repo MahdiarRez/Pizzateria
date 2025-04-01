@@ -1,5 +1,5 @@
 import PizzaPic from "./PizzaHomeP.jpg";
-import { motion } from "framer-motion";
+import { motion } from "motion/react";
 import { Link } from "react-router-dom";
 import { useEffect, useState } from "react";
 

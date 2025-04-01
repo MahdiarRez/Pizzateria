@@ -1,5 +1,5 @@
 /* eslint-disable react/prop-types */
-import { motion } from "framer-motion";
+import { motion } from "motion/react";
 import Logo from "./LogoPizza.png";
 import SearchBtn from "../../common/SearchBtn";
 import LoginBtn from "../../common/LoginBtn";

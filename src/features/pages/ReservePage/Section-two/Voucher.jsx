@@ -2,7 +2,7 @@
 import { useEffect, useState } from "react";
 import "../../../../index.css";
 import DiscountPic from "./Discount.png";
-import { motion } from "framer-motion";
+import { motion } from "motion/react";
 
 function Voucher({ bg, percent, val }) {
 	const [isMobile, setIsMobile] = useState(true);

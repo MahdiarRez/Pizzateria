@@ -1,5 +1,5 @@
 /* eslint-disable react/prop-types */
-import { AnimatePresence, motion } from "framer-motion";
+import { AnimatePresence, motion } from "motion/react";
 function Alert({ isVisible, children }) {
 	return (
 		<AnimatePresence>

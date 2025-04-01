@@ -1,5 +1,5 @@
 /* eslint-disable react/prop-types */
-import { AnimatePresence, motion } from "framer-motion";
+import { AnimatePresence, motion } from "motion/react";
 
 function ModalBoxAnimate({ isVisible, children, handler, h = "h-80" }) {
 	return (

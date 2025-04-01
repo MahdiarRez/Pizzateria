@@ -14,7 +14,7 @@ import { formatCurrency, ScrollUp } from "../common/helpers";
 import store from "../../app/store";
 import { clearAddress, clearErrors, fetchAddress } from "../user/userSlice";
 import toast from "react-hot-toast";
-import { AnimatePresence, motion } from "framer-motion";
+import { AnimatePresence, motion } from "motion/react";
 
 // https://uibakery.io/regex-library/phone-number
 // const isValidPhone = (str) =>

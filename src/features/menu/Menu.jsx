@@ -1,7 +1,7 @@
 import { useLoaderData, useNavigate } from "react-router-dom";
 import { getMenu } from "../services/apiRestaurant";
 import MenuHeader from "../pages/HomePage/Section-three/MenuHeader";
-import { motion } from "framer-motion";
+import { motion } from "motion/react";
 import Pizza from "../pages/HomePage/Section-three/Pizza";
 import { useEffect } from "react";
 import { ScrollUp } from "../common/helpers";

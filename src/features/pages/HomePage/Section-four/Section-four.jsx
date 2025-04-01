@@ -4,7 +4,7 @@ import fotor from "./fotor.png";
 import mashroom from "./mashroom.png";
 import papper from "./papper.png";
 import MotionDiv from "../../../common/MotionDiv";
-import { motion } from "framer-motion";
+import { motion } from "motion/react";
 import CustomerSay from "./CustomerSay";
 import LittleTitle from "../../../common/LittleTitle";
 import BigTitle from "../../../common/BigTitle";
