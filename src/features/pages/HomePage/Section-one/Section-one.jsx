@@ -12,8 +12,8 @@ function SectionOne() {
 	return (
 		<div
 			style={{ backgroundImage: `url(${PizzaPic})` }}
-			className={`bg-cover bg-right h-[500px] lg:h-FullHeight`}>
-			<div className="backdrop-brightness-75 h-full w-full flex justify-evenly items-center flex-col py-16 sm:py-12 lg:py-40">
+			className={`bg-cover bg-right h-[500px] lg:h-FullHeight lg:min-h-[722px]`}>
+			<div className="backdrop-brightness-75 min-h-full lg:min-h-[722px] lg:h-full w-full flex justify-evenly items-center flex-col py-16 sm:py-12 lg:py-40">
 				<ul className="steps steps-horizontal text-xs text-white md:mb-3 md:text-lg lg:mb-7">
 					<li className="step step-error">Login</li>
 					<li className="step step-error">Choose pizza</li>
